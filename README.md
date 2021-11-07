@@ -21,7 +21,9 @@ This notebook illustrates the segmentation procedures undertaken using the teste
 ### 3. Persona evaluation (Python notebook)
 This notebook illustrates the evaluation of the generated personas using the metrics defined in the paper (diversity, fairness, consistency).
 
-# INSTRUCTIONS
+More detailed instructions are presented below.
+
+## Instructions
 
 STEP 1: Install the libraries required to run the code by using this command:
 
