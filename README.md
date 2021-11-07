@@ -23,22 +23,24 @@ This notebook illustrates the evaluation of the generated personas using the met
 
 # INSTRUCTIONS
 
-You can install the libraries required to run the code by using this command:
+STEP 1: Install the libraries required to run the code by using this command:
 
     pip install -r requirements.txt
 
 The replication of the methodology involves four steps. The steps are explained as follows.
 
-STEP 1: Download the example dataset: https://www.dropbox.com/s/oifkk6fmzb332so/Data.csv?dl=0
-STEP 2: Decompose the personas:
+STEP 2: Download the example dataset: https://www.dropbox.com/s/oifkk6fmzb332so/Data.csv?dl=0
 
-(a) Persona decomposition.ipynb -- this file contains the necessary code for decomposing the example dataset.
-(b) Decomposition results in two files that are required for persona generation (normal and transposed file).
+STEP 3: Decompose the personas:
 
-STEP 3: Submit your decomposed files (normal and transposed) to Automatic Persona Generation: https://persona.qcri.org (contact the authors if you need assistance).
+>Persona decomposition.ipynb -- this file contains the necessary code for decomposing the example dataset.
 
-STEP 4: You will receive back files corresponding to contents of the "personas" folder (i.e., these are the personas we generated from our dataset).
+The decomposition outputs two files that are required for persona generation (normal and transposed file).
+
+STEP 4: Submit your decomposed files (normal and transposed) to Automatic Persona Generation: https://persona.qcri.org (contact the authors if you need assistance).
+
+STEP 5: You will receive back files corresponding to contents of the "personas" folder (i.e., these are the personas we generated from our dataset).
 You can then evaluate the personas in these files using the following notebook:
 
-(c) Persona evaluation.ipynb -- this file contains the necessary code for evaluating Persona Diversity, Fairness, and Consistency (DFC).
+> Persona evaluation.ipynb -- this file contains the necessary code for evaluating Persona Diversity, Fairness, and Consistency (DFC).
 
