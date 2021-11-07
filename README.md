@@ -17,7 +17,7 @@ This notebook illustrates the segmentation procedures undertaken using the teste
 # Persona evaluation
 This notebook illustrates the evaluation of the generated personas using the metrics defined in the paper (diversity, fairness, consistency).
 
-=======INSTRUCTIONS=======
+# INSTRUCTIONS
 
 You can install the libraries required to run the code by using this command:
 
@@ -38,7 +38,7 @@ You can then evaluate the personas in these files using the following notebook:
 
 (c) Persona evaluation.ipynb -- this file contains the necessary code for evaluating Persona Diversity, Fairness, and Consistency (DFC).
 
-=======REQUIREMENTS=======
+# REQUIREMENTS
 
 scikit-learn==0.23.dev0
 numpy==1.18.4
