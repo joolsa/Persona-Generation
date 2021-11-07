@@ -1,5 +1,7 @@
 # Big Data, Small Personas: How Algorithms Affect the Demographics of Data-Driven User Segments
 
+## Introduction
+
 This repository contains the materials for the "Big Data, Small Personas" research paper.
 
 
@@ -8,13 +10,15 @@ This repository contains the materials for the "Big Data, Small Personas" resear
 
 >Link to paper: [TBA]
 
-# Dataset
-Data.csv contains data to run the persona generation algorithms. NOTE: The data file is scrambled to protect business-sensitive information, and thus provide an example of data structure and dimensionality rather than real data. To generate meaningful personas, the data files should be replaced with real user data obtained from YouTube Analytics or other compatible source. NOTE: Due to GitHub's file size restrictions, the example dataset (48MB) is provided via Dropbox: https://www.dropbox.com/s/oifkk6fmzb332so/Data.csv?dl=0
+## What's Needed?
 
-# Persona decomposition
+### 1. Dataset
+Download the example dataset from Dropbox. This dataset (Data.csv) contains data to run the persona generation algorithms. NOTE: The data file is scrambled to protect business-sensitive information, and thus provide an example of data structure and dimensionality rather than real data. To generate meaningful personas, the data files should be replaced with real user data obtained from YouTube Analytics or other compatible source. NOTE: Due to GitHub's file size restrictions, the example dataset (48MB) is provided via Dropbox: https://www.dropbox.com/s/oifkk6fmzb332so/Data.csv?dl=0
+
+### 2. Persona decomposition (Python notebook)
 This notebook illustrates the segmentation procedures undertaken using the tested algorithms.
 
-# Persona evaluation
+### 3. Persona evaluation (Python notebook)
 This notebook illustrates the evaluation of the generated personas using the metrics defined in the paper (diversity, fairness, consistency).
 
 # INSTRUCTIONS
@@ -37,13 +41,4 @@ STEP 4: You will receive back files corresponding to contents of the "personas" 
 You can then evaluate the personas in these files using the following notebook:
 
 (c) Persona evaluation.ipynb -- this file contains the necessary code for evaluating Persona Diversity, Fairness, and Consistency (DFC).
-
-# REQUIREMENTS
-
-scikit-learn==0.23.dev0
-numpy==1.18.4
-umap-learn[plot]==0.4.1
-pandas==0.25.3
-matplotlib==3.1.3
-seaborn==0.10.0
 
