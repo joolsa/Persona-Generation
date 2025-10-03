@@ -12,14 +12,13 @@ This repository contains the materials for the "Big Data, Small Personas" resear
 
 ## Citation
 
+```bibtex
 @article{salminen2022big,
   title={Big Data, Small Personas: How Algorithms Shape the Demographic Representation of Data-Driven User Segments},
   author={Salminen, Joni and Chhirang, Kunal and Jung, Soon-Gyo and Thirumuruganathan, Saravanan and Guan, Kok Wai and Jansen, Bernard J},
   journal={Big Data},
   year={2022},
-  publisher={Mary Ann Liebert, Inc., publishers},
-  doi={10.1089/big.2021.0177},
-  url={https://doi.org/10.1089/big.2021.0177}
+  doi={10.1089/big.2021.0177}
 }
 
 ## What's Needed?
