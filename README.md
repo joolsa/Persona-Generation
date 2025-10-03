@@ -20,6 +20,7 @@ This repository contains the materials for the "Big Data, Small Personas" resear
   year={2022},
   doi={10.1089/big.2021.0177}
 }
+```
 
 ## What's Needed?
 
